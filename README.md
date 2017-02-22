@@ -27,3 +27,15 @@ Embed using the image ID.
 ```swig
 {% theta360 fHmW9N6LuKPPp6pqmnPt1vpho %}
 ```
+
+## Styling
+By default, the `iframe` has no styling at all. You will need to apply your own styles using CSS by targetting the `hexo-tag-theta360`.
+
+An example style could be
+
+```css
+.hexo-tag-theta360 {
+    width: 100%;
+    height: 400px;
+}
+```
