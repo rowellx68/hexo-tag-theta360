@@ -1,0 +1,28 @@
+{
+  "name": "hexo-tag-theta360",
+  "version": "1.0.0",
+  "description": "Embed 360 photos uploaded to theta360.com tag plugin for Hexo.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowellx68/hexo-tag-theta360.git"
+  },
+  "keywords": [
+    "hexo",
+    "tag",
+    "ricoh",
+    "theta",
+    "embed",
+    "blog"
+  ],
+  "author": {
+    "email": "rowellheria@gmail.com",
+    "name": "Rowell Heria",
+    "url": "http://rowell.heria.uk/nyx"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rowellx68/hexo-tag-theta360/issues"
+  },
+  "homepage": "https://github.com/rowellx68/hexo-tag-theta360#readme"
+}
