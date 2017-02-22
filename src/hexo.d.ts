@@ -1,1 +1,1 @@
-declare module "hexo";
+declare var hexo;

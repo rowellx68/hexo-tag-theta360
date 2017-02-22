@@ -1,6 +1,3 @@
-
-import * as hexo from "hexo";
-
 hexo.extend.tag.register("theta360", (args: string[], content: string): string => {
     let imageId: string;
     let returnHtml = "";

@@ -1,5 +1,3 @@
-"use strict";
-var hexo = require("hexo");
 hexo.extend.tag.register("theta360", function (args, content) {
     var imageId;
     var returnHtml = "";
