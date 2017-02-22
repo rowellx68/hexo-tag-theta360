@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "",
+        "module": "commonjs",
+        "removeComments": false
+    },
+    "typeAcquisition": {
+        "enable": true
+    },
+    "include": [
+        "./src"
+    ]
+}
