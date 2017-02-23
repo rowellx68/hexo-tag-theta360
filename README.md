@@ -29,7 +29,7 @@ Embed using the image ID.
 ```
 
 ## Styling
-By default, the `iframe` has no styling at all. You will need to apply your own styles using CSS by targetting the `hexo-tag-theta360` class.
+By default, the `iframe` has no styling at all. You will need to apply your own styles using CSS by targeting the `hexo-tag-theta360` class.
 
 An example style could be
 
