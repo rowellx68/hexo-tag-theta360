@@ -4,6 +4,7 @@
   "description": "Embed 360 photos uploaded to theta360.com tag plugin for Hexo.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "mocha test/index.js",
     "test-cov": "istanbul cover --print both _mocha -- test/index.js"
   },
@@ -30,8 +31,11 @@
   },
   "homepage": "https://github.com/rowellx68/hexo-tag-theta360#readme",
   "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.39",
     "chai": "^3.5.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "typescript": "^2.2.1"
   }
 }

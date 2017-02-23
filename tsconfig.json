@@ -3,7 +3,11 @@
         "target": "es5",
         "outDir": "",
         "module": "commonjs",
-        "removeComments": false
+        "removeComments": false,
+        "types": [
+            "mocha",
+            "chai"
+        ]
     },
     "typeAcquisition": {
         "enable": true
