@@ -10,6 +10,7 @@ node_js:
   - "7"
 
 script:
+  - npm run build
   - npm run test-cov
 
 after_script:
