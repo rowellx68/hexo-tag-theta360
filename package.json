@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-theta360",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Embed 360 photos uploaded to theta360.com tag plugin for Hexo.",
   "main": "index.js",
   "scripts": {
