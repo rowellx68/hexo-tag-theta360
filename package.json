@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "Embed 360 photos uploaded to theta360.com tag plugin for Hexo.",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rowellx68/hexo-tag-theta360.git"
@@ -24,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/rowellx68/hexo-tag-theta360/issues"
   },
-  "homepage": "https://github.com/rowellx68/hexo-tag-theta360#readme"
+  "homepage": "https://github.com/rowellx68/hexo-tag-theta360#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
 }

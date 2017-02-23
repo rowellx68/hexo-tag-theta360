@@ -7,7 +7,7 @@ export namespace Theta360 {
             return returnHtml;
         }
 
-        const fullUrl = str.match(/http(s?)\:\/\/(www\.?)theta360\.com\/s\/([0-9a-zA-Z-_]+)/);
+        const fullUrl = str.match(/http(s)?\:\/\/(www\.)?theta360\.com\/s\/([0-9a-zA-Z-_]+)/);
 
         if (fullUrl) {
             imageId = fullUrl[3];
